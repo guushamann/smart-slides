@@ -328,3 +328,5 @@ Stack: Use React, the blank starter, with tanstack-query, clerk, table, form.
 Toolchain: keep the default CLI toolchain.
 Preserve the generated project structure unless there is a clear reason to change it.
 Explain any environment variables and follow-up setup steps after scaffolding.
+
+you can push to https://github.com/guushamann/smart-slides.git
