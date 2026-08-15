@@ -7,5 +7,6 @@ const csrfMiddleware = createCsrfMiddleware({
 })
 
 export const startInstance = createStart(() => ({
+  defaultSsr: 'data-only',
   requestMiddleware: [csrfMiddleware, clerkMiddleware()],
 }))
